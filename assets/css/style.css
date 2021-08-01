@@ -1,0 +1,44 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ===3.SEARCH SECTION=== */
+
+#search-section {
+    background-color: whitesmoke;
+}
+
+/* ===4.CURRENT CITY=== */
+
+.city {
+    border: none;
+}
+
+.card-city {
+    border: none;
+}
+
+/* ===5.FORECAST=== */
+
+.cbforecast {
+    margin: 15px;
+}
+
+
+.main-container {
+    padding-bottom: 15px;
+}
+
+.row-blue {
+    background-color: whitesmoke;
+}

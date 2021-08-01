@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4d70f3ad75.js" crossorigin="anonymous"></script>
+    <!--css>-->
+    <link rel='stylesheet' type='text/css' href='./assets/css/style.css'>
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    
+    
+    <nav  class="bg-info">
+        <span class='text-center'> Weather Dashboard</span>
+    </nav>
+
+    
+    <div id="content" class="container">
+        <div class="row">
+
+            
+            <div id="content-left" class="col-md-3">
+                <form>
+                    <label for="search-city">Search for a City:</label>
+                    <div class="form-row">
+                        <input id="search-city" class="form-control" name="city" value="Toronto"></input>
+                        
+                        <button id="search-button" class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <div id="search-error"></div>
+                
+                <ul id="city-results" class="list-group mt-4"></ul>
+                
+                <a id="clear-storage" href="#"></a>    
+            </div>
+
+            
+            <div id="content-right" class="col-md-9 pt-4">
+               
+                <div id="current-weather" class="border rounded"></div>
+                
+                <div id="five-day-forecast" class="mt-5"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+  
+  
+  </body>
+  
+  <script src='./assets/js/script.js'></script>
+  </html>
